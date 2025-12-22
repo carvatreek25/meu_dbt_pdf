@@ -11,13 +11,7 @@ __pycache__/
 *.so
 .Python
 
-# Arquivos de dados sensíveis
-*.pdf
-*.csv
-files/pdf/
-files/csv/
-
-# Credenciais e configurações sensíveis
+# Credenciais e configurações sensíveis (mantenha isso!)
 .env
 *.env
 config.ini
