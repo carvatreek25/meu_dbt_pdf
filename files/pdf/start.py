@@ -117,7 +117,7 @@ if __name__ == "__main__":
             logging.warning(f"Nenhum arquivo encontrado para {corretora}")
             continue
         
-        for file in files:  # ✅ AGORA está DENTRO do loop (4 espaços extras)
+        for file in files:  
             extractor = PDFTableExtractor(file, configs=rules_dict[corretora]).start()
     
     logging.info("Todos os arquivos de todas as corretoras foram processados")
