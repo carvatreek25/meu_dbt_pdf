@@ -1,4 +1,4 @@
-📊 Pipeline de Dados: PDF Extractor & dbt
+📊 Pipeline de Dados: Converter PDFs em dados estruturados usando Camelot & DBT & MYSQL & Power BI
 Este projeto realiza a extração automática de dados de faturas em PDF, processa as transformações via dbt em um banco MySQL e disponibiliza os dados lapidados para um Dashboard no Power BI.
 
 🏗️ Estrutura do Projeto
