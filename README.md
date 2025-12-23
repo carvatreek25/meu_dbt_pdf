@@ -42,6 +42,10 @@ O modelo principal é o gold_fatura_jornada, que realiza um UNION ALL entre as f
 📂 Estrutura do Projeto (Organização Real)
 O projeto está estruturado da seguinte forma:
 
+Abaixo está o mapeamento do fluxo de dados desde as tabelas de origem até a camada final Gold:
+
+![Arquitetura de Tabelas](./img/arquitetura%20de%20tabelas.png)
+
 meu_dbt_pdf/: Diretório raiz do projeto dbt.
 
 models/: Contém as camadas de dados.
