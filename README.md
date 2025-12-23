@@ -4,6 +4,8 @@ Este projeto realiza a extração automática de dados de faturas em PDF, proces
 🏗️ Estrutura do Projeto
 Extração: Scripts Python que transformam PDFs brutos em tabelas relacionais.
 
+
+
 Warehouse: Banco de Dados MySQL (Schema: analytics).
 
 Transformação: dbt (Data Build Tool) organizado em camadas Bronze, Silver e Gold.
