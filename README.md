@@ -78,10 +78,16 @@ O Dashboard final consome a tabela gold_fatura_jornada.
 
 ![Dicionario](./img/dicionario.png)
 
+![Dashboard](./img/dashboard.png)
+
 Principais métricas:
 
 Total de Movimentação Financeira.
 
-Volume por Mercadoria.
+Taxas praticadas por média.
 
-Evolução diária (Data de Pregão).
+Quantidade de ações ao longo do tempo - Compra e Venda.
+
+Controle das ações - Compra e Venda por Ticker.
+
+Quadro Resumo do Controle de Movimentações e Ações.
