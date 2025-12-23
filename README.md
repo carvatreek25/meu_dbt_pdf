@@ -1,4 +1,5 @@
 📊 Pipeline de Dados: Converter PDFs em dados estruturados usando Camelot & DBT & MYSQL & Power BI
+
 Este projeto realiza a extração automática de dados de faturas em PDF, processa as transformações via dbt em um banco MySQL e disponibiliza os dados lapidados para um Dashboard no Power BI.
 
 🏗️ Estrutura do Projeto
@@ -39,12 +40,13 @@ cd meu_dbt_pdf
 dbt run
 O modelo principal é o gold_fatura_jornada, que realiza um UNION ALL entre as fontes processadas.
 
-📂 Estrutura do Projeto (Organização Real)
-O projeto está estruturado da seguinte forma:
+📂 Estrutura do Projeto
 
 Abaixo está o mapeamento do fluxo de dados desde as tabelas de origem até a camada final Gold:
 
 ![Arquitetura de Tabelas](./img/arquitetura_tabelas.png)
+
+O projeto está estruturado da seguinte forma:
 
 meu_dbt_pdf/: Diretório raiz do projeto dbt.
 
