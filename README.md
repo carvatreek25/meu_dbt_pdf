@@ -25,6 +25,8 @@ PowerShell
 2. Banco de Dados (MySQL)
 O projeto está configurado para um servidor local:
 
+![MySQL](./img/mysql.png)
+
 Host: ****
 
 User: ***
