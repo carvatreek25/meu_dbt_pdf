@@ -5,8 +5,6 @@ Este projeto realiza a extração automática de dados de faturas em PDF, proces
 🏗️ Estrutura do Projeto
 Extração: Scripts Python que transformam PDFs brutos em tabelas relacionais.
 
-
-
 Warehouse: Banco de Dados MySQL (Schema: analytics).
 
 Transformação: dbt (Data Build Tool) organizado em camadas Bronze, Silver e Gold.
@@ -78,11 +76,7 @@ Consumo: O Power BI conecta-se ao MySQL para ler a tabela final gerada na pasta 
 📊 Visualização Final (Power BI)
 O Dashboard final consome a tabela gold_fatura_jornada.
 
-Conecte o Power BI ao MySQL (localhost:3306).
-
-Selecione o banco analytics.
-
-Importe a tabela gold_fatura_jornada.
+![Dicionario](./img/dicionario.png)
 
 Principais métricas:
 
