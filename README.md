@@ -44,7 +44,7 @@ O projeto está estruturado da seguinte forma:
 
 Abaixo está o mapeamento do fluxo de dados desde as tabelas de origem até a camada final Gold:
 
-![Arquitetura de Tabelas](./img/arquitetura%20de%20tabelas.png)
+![Arquitetura de Tabelas](./img/arquitetura_tabelas.png)
 
 meu_dbt_pdf/: Diretório raiz do projeto dbt.
 
